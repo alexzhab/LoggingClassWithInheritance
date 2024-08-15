@@ -1,3 +1,6 @@
+#ifndef LOGGING_H
+#define LOGGING_H
+
 #include <string>
 #include <iostream>
 
@@ -109,3 +112,5 @@ public:
       }
   }
 };
+
+#endif // LOGGING_H
