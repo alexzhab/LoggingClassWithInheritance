@@ -92,7 +92,7 @@ public:
   Logging(const Logging& l) = delete;
   Logging & operator=(const Logging & l) = delete;
 
-  static void print_msg(const std::string & msg, const MessageType & msg_type) {
+  static void print(const std::string & msg, const MessageType & msg_type) {
     switch(msg_type) {
         case MessageType::Important: {
           print_important(msg);
